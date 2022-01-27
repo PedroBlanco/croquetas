@@ -4,6 +4,7 @@
   },
   "dependencies": {
     "@11ty/eleventy": "^1.0.0",
-    "csv-parse": "^5.0.4"
+    "csv-parse": "^5.0.4",
+    "sync": "^0.2.5"
   }
 }
