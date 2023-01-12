@@ -1,8 +1,10 @@
-module.exports = config => {
-    return {
-      dir: {
-        input: 'src',
-        output: 'dist'
-      }
-    };
+module.exports = (eleventyConfig) => {
+  return {
+    dir: {
+      include: 'src/_includes',
+      input: 'src',
+      output: 'dist'
+    }
   };
+};
+

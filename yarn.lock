@@ -14,7 +14,7 @@
   dependencies:
     normalize-path "^3.0.0"
 
-"@11ty/eleventy@^1.0.0":
+"@11ty/eleventy@>=1.0.2":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@11ty/eleventy/-/eleventy-1.0.2.tgz#e8dace170a2dd377fb40465b337bb5f0d17ce6bd"
   integrity sha512-03ER4zukR6BgwppI5DHRE11lc+8B0fWsBrqacVWo3o49QkdEFXnEWjhyI9qd9LrPlgQHK2/MYyxuOvNwecyCLQ==
@@ -561,11 +561,6 @@ cross-spawn@^7.0.3:
     path-key "^3.1.0"
     shebang-command "^2.0.0"
     which "^2.0.1"
-
-csv-parse@^5.0.4:
-  version "5.3.3"
-  resolved "https://registry.yarnpkg.com/csv-parse/-/csv-parse-5.3.3.tgz#3b75d2279e2edb550cbc54c65b25cbbf3d0033ad"
-  integrity sha512-kEWkAPleNEdhFNkHQpFHu9RYPogsFj3dx6bCxL847fsiLgidzWg0z/O0B1kVWMJUc5ky64zGp18LX2T3DQrOfw==
 
 debug@2.6.9, debug@^2.2.0:
   version "2.6.9"
@@ -1429,7 +1424,7 @@ opn@5.3.0:
   dependencies:
     is-wsl "^1.1.0"
 
-papaparse@^5.3.1:
+papaparse@^5.3.2:
   version "5.3.2"
   resolved "https://registry.yarnpkg.com/papaparse/-/papaparse-5.3.2.tgz#d1abed498a0ee299f103130a6109720404fbd467"
   integrity sha512-6dNZu0Ki+gyV0eBsFKJhYr+MdQYAzFUGlBMNj3GNrmHxmz1lfRa24CjFObPXtjcetlOv5Ad299MhIK0znp3afw==
