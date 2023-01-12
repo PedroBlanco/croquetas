@@ -1,0 +1,19 @@
+---
+title: "¡Croquetas!"
+---
+{% render '_head' %}
+<h1>{{ title }}</h1>
+<p>Bienvenid@ a la carta experimental de croquetas de conocimiento.
+  <br/>
+  <img
+    src="https://media.giphy.com/media/YTJXDIivNMPuNSMgc0/giphy-downsized.gif"
+    alt="me thinking 'I can do this'"
+    title="me thinking 'I can do this'" />
+  <br/>
+  {% render '_test' %}
+  <br/>
+  {% for croqueta in croquetas %}
+    {% render 'croqueta' with croqueta %}
+  {% endfor %}
+</p>
+{% render '_foot' %}

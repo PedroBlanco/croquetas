@@ -1,9 +1,12 @@
+---
+title: "Acerca de..."
+---
 <!DOCTYPE html>
 <html lang="es">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Acerca de...</title>
+    <title>{{ title }}</title>
     <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
     <link
       rel="stylesheet"
@@ -29,7 +32,7 @@
         <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
           <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
             <img src="/img/croquetas.png" width="64" />
-            <span class="fs-4">Acerca de...</span>
+            <span class="fs-4">{{ title }}</span>
           </a>
 
           <ul class="nav nav-pills">
@@ -48,7 +51,7 @@
 
       <div class="container">
 
-        <h1>Acerca de...</h1>
+        <h1>{{ title }}</h1>
         <p>Este proyecto es un "experimento" de un índice de
           <b>croquetas de conocimiento</b>
           mediante un generador de sitios web estáticos.
