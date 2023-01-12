@@ -1,5 +1,20 @@
 {
+  "name": "croquetas",
+  "version": "0.0.1",
+  "description": "Carta de croquetas de conocimiento",
+  "author": "Pedro Blanco Wasmer <9304344+PedroBlanco@users.noreply.github.com>",
+  "license": "EUPL-1.2",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PedroBlanco/croquetas"
+  },
+  "bugs": {
+    "url": "https://github.com/PedroBlanco/croquetas/issues"
+  },
+  "homepage": "https://github.com/PedroBlanco/croquetas",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "eleventy --serve"
   },
   "dependencies": {
