@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "@11ty/eleventy": ">=1.0.2",
+    "eleventy-plugin-feathericons": "^1.0.1",
     "papaparse": "^5.3.2",
     "sync": "^0.2.5"
   }
