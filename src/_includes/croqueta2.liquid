@@ -1,0 +1,16 @@
+{% feather 'link' %}
+<div class="list-group">
+  {% for croqueta in croquetas %}
+    <a
+      href="#"
+      class="list-group-item list-group-item-action active"
+      aria-current="true">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1">{{ croqueta.Titulo }}</h5>
+        <small>{{ croqueta.Hashtags }}</small>
+      </div>
+      <p class="mb-1">{{ croqueta.texto }}</p>
+      <small>...</small>
+    </a>
+  {% endfor %}
+</div>

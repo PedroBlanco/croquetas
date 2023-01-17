@@ -1,7 +1,7 @@
 ---
 title: "¡Croquetas!"
 ---
-{% render '_head' %}
+{% render '_head' with title %}
 <h1>{{ title }}</h1>
 <p>Bienvenid@ a la carta experimental de croquetas de conocimiento.
   <br/>
@@ -9,6 +9,10 @@ title: "¡Croquetas!"
     src="https://media.giphy.com/media/YTJXDIivNMPuNSMgc0/giphy-downsized.gif"
     alt="me thinking 'I can do this'"
     title="me thinking 'I can do this'" />
+  <br/>
+  {% render '_test' %}
+  <br/>
+  {% render 'croqueta2' with croquetas %}
   <br/>
   {% render '_test' %}
   <br/>
