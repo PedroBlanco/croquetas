@@ -16,12 +16,12 @@
 4. Ejecutar el generador (el resultado se guarda en el archivo ```dist``` del proyecto):
    - Arrancar el servidor web:
 
-   ```npm run serve``` ó ```npm run start```
+     ```npm run serve``` ó ```npm run start```
 
      - Sirve para ver el sitio web generado en http://localhost:8080/ que cambia automáticamente (mientras está funcionando) si cambia algún archivo del proyecto (p.e. 
 
    - Generar el sitio web:
 
-   ```npm run build```
+     ```npm run build```
 
-    - Sólo genera los archivos.
+     - Sólo genera los archivos.
