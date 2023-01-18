@@ -6,7 +6,7 @@
    - La versión a fecha de 18/01/2023 es la **18.13.0 LTS** en https://nodejs.org/en/
 
 2. Descargar este proyecto:
-   - En un archivo .zip (que hay que descomprimir).
+   - En un archivo .zip (que hay que descomprimir): ver botón verde **<> Code** en la página https://github.com/PedroBlanco/croquetas/ o pinchar [aquí](https://github.com/PedroBlanco/croquetas/archive/refs/heads/main.zip) para descargarlo.
    - En forma de repositorio GIT.
 
 3. Instalar dependencias (como Eleventy.js y otros). Ejecutar en el directorio del proyecto la siguiente orden:
