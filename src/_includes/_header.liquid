@@ -1,18 +1,51 @@
-<header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-  <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-    <img src="/img/croquetas.png" width="64" />
-    <span class="fs-4">{{ title }}</span>
-  </a>
-
-  <ul class="nav nav-pills">
-    <li class="nav-item">
-      <a
-        href="/"
-        class="nav-link active"
-        aria-current="page">Inicio</a>
-    </li>
-    <li class="nav-item">
-      <a href="/README/" class="nav-link">Acerca de...</a>
-    </li>
-  </ul>
-</header>
+<div class="collapse bg-dark" id="navbarHeader">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 col-md-7 py-4">
+        <h4 class="text-white">Acerca de...</h4>
+        <p class="text-muted">Carta experimental de croquetas.<br/>
+          <img
+            src="https://media.giphy.com/media/YTJXDIivNMPuNSMgc0/giphy-downsized.gif"
+            alt="me thinking 'I can do this'"
+            title="me thinking 'I can do this'" />
+          <br/>
+          <a href="/README/" class="nav-link">Más información aquí.</a>
+        </p>
+      </div>
+      <div class="col-sm-4 offset-md-1 py-4">
+        <h4 class="text-white">Contact</h4>
+        <ul class="list-unstyled">
+          <li>
+            <a href="#" class="text-white">Follow on Twitter</a>
+          </li>
+          <li>
+            <a href="#" class="text-white">Like on Facebook</a>
+          </li>
+          <li>
+            <a href="#" class="text-white">Email me</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="navbar navbar-dark bg-dark shadow-sm">
+  <div class="container">
+    <a href="#" class="navbar-brand d-flex align-items-center">
+      <img src="/img/croquetas.png" width="64" />&nbsp;&nbsp;&nbsp;
+      <h1>
+        <strong>Croquetas</strong>
+      </h1>
+    </a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarHeader"
+      aria-controls="navbarHeader"
+      aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+</div>

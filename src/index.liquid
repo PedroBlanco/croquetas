@@ -2,22 +2,21 @@
 title: "¡Croquetas!"
 ---
 {% render '_head' with title %}
-<h1>{{ title }}</h1>
-<p>Bienvenid@ a la carta experimental de croquetas de conocimiento.
-  <br/>
-  <img
-    src="https://media.giphy.com/media/YTJXDIivNMPuNSMgc0/giphy-downsized.gif"
-    alt="me thinking 'I can do this'"
-    title="me thinking 'I can do this'" />
-  <br/>
-  {% render '_test' %}
-  <br/>
-  {% render 'croqueta2' with croquetas %}
-  <br/>
-  {% render '_test' %}
-  <br/>
-  {% for croqueta in croquetas %}
-    {% render 'croqueta' with croqueta %}
-  {% endfor %}
-</p>
+<section class="py-5 text-center container">
+  <div class="row py-lg-5">
+    <div class="col-lg-6 col-md-8 mx-auto">
+      <h1 class="fw-light">{{ title }}</h1>
+      <p class="lead text-muted">Bienvenid@ a nuestra carta experimental de croquetas de conocimiento.<br/></p>
+    </div>
+  </div>
+</section>
+<div class="album py-5 bg-light">
+  <div class="container">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      {% for croqueta in croquetas %}
+        {% render 'croqueta2' with croqueta %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
 {% render '_foot' %}
